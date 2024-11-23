@@ -39,7 +39,7 @@ class Program
 
 
 
-            if (input.Length == 2 && int.TryParse(input[0], out int x) && int.TryParse(input[1], out int y))
+            if (input.Length == 2 && int.TryParse(input[0], out int x) && int.TryParse(input[1], out int y)) 
 
             {
 
@@ -67,7 +67,7 @@ class Program
 
 
 
-                        if (count /*??*/ 0)
+                        if (count  > 0)
 
                         {
 
