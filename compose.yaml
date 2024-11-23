@@ -1,0 +1,6 @@
+﻿services:
+  studies_saper:
+    image: studies_saper
+    build:
+      context: .
+      dockerfile: studies_saper/Dockerfile
